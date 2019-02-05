@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,300|Open+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:400');
 
 
 .landing {
@@ -30,41 +30,33 @@ div {
 }
 .landing .head {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 19px;
+  top                 : 49px;
   height              : 35px;
-  width               : 662px;
+  width               : 1155px;
   position            : absolute;
   margin              : 0;
-  left                : 79px;
+  left                : 63px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landing .head .aboutcontact {
+.landing .head .rectangle {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
-  height              : auto;
-  width               : 218px;
+  top                 : 0px;
+  height              : 35px;
+  width               : 1155px;
   position            : absolute;
   margin              : 0;
-  left                : 445px;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(159, 163, 167, 1.0);
-  text-align          : center;
-  letter-spacing      : 2.4px;
-  line-height         : 13.0px;
 }
 .landing .head .logo {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 35px;
-  width               : 103px;
+  width               : 561px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -76,7 +68,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
-  width               : auto;
+  width               : 561px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -91,11 +83,87 @@ div {
   text-align          : left;
   line-height         : 35.0px;
 }
-.landing .title {
+.landing .head .buttons {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 239px;
-  height              : 183px;
-  width               : 348px;
+  top                 : 9px;
+  height              : 18px;
+  width               : 239px;
+  position            : absolute;
+  margin              : 0;
+  left                : 458px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .head .buttons .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 111px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .head .buttons .button .contact {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.36px;
+  line-height         : 18.0px;
+}
+.landing .head .buttons .button1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 110px;
+  position            : absolute;
+  margin              : 0;
+  left                : 129px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .head .buttons .button1 .about {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 113px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.36px;
+  line-height         : 18.0px;
+}
+.landing .main {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 191px;
+  height              : 280px;
+  width               : 796px;
   position            : absolute;
   margin              : 0;
   left                : 197px;
@@ -103,7 +171,50 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landing .title .findthecheapestso {
+.landing .main .subtitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 204px;
+  height              : 22px;
+  width               : 339px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .main .subtitle .hintyoumaynotne {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 339px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Open Sans", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.landing .main .title {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 144px;
+  width               : 348px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .main .title .findthecheapestso {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : auto;
@@ -122,107 +233,19 @@ div {
   text-align          : left;
   line-height         : 48.0px;
 }
-.landing .title .hintyoumaynotne {
+.landing .main .image {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 161px;
-  height              : auto;
-  width               : 304px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 18.0px;
-  color               : rgba(159, 163, 167, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.landing .button {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 446px;
-  height              : 51px;
-  width               : 224px;
-  position            : absolute;
-  margin              : 0;
-  left                : 197px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .button .rectangle {
-  background-color    : rgba(255, 200, 10, 1.0);
   top                 : 0px;
-  height              : 51px;
-  width               : 224px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 25px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .button .getearlyaccess {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 17px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(33, 33, 33, 1.0);
-  text-align          : center;
-  letter-spacing      : 2.4px;
-  line-height         : 15.0px;
-}
-.landing .arrow {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 645px;
-  height              : 14px;
-  width               : 12px;
-  position            : absolute;
-  margin              : 0;
-  left                : 257px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .arrow .shape {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1px;
-  height              : 12px;
-  width               : 12px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .avataaars {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 191px;
   height              : 280px;
   width               : 264px;
   position            : absolute;
   margin              : 0;
-  left                : 729px;
+  left                : 532px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landing .avataaars .circle {
+.landing .main .image .circle {
   background-color    : rgba(255,255,255,0.0);
   top                 : 40px;
   height              : 240px;
@@ -234,7 +257,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landing .avataaars .circle .circlebackground {
+.landing .main .image .circle .circlebackground {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 240px;
@@ -246,7 +269,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landing .avataaars .circle .circlebackground .path1 {
+.landing .main .image .circle .circlebackground .path1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 240px;
@@ -258,7 +281,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landing .avataaars .circle .colorpaletteblue01clipped {
+.landing .main .image .circle .colorpaletteblue01clipped {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 240px;
@@ -270,7 +293,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landing .avataaars .circle .colorpaletteblue01clipped .colorpaletteblue01clipped1 {
+.landing .main .image .circle .colorpaletteblue01clipped .colorpaletteblue01clipped1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 240px;
@@ -282,7 +305,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landing .avataaars .avataaarclipped {
+.landing .main .image .avatar {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 280px;
@@ -294,7 +317,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.landing .avataaars .avataaarclipped .avataaarclipped1 {
+.landing .main .image .avatar .avatar1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 280px;
@@ -305,6 +328,51 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
+}
+.landing .cta {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 446px;
+  height              : 51px;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  left                : 197px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .cta .rectangle {
+  background-color    : rgba(255, 200, 10, 1.0);
+  top                 : 0px;
+  height              : 51px;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.landing .cta .getearlyaccess {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 189px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(33, 33, 33, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.2px;
+  line-height         : 19.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
