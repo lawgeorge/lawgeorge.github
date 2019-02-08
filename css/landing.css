@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:400');
 
-
-.landing {
-  width               : 100%;
-  min-width           : 1280px;
-  height              : 100vh;
-  min-height          : 720px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
+body {
+  margin              : 0;
+  background          : rgba(255, 255, 255, 1.0);
+  font-family         : "Montserrat", Helvetica, Arial, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
 }
 a {
   text-decoration     : none;
@@ -19,437 +13,146 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-full-width-a {
-  width               : 100%;
-}
-.anima-full-height-a {
-  height              : 100%;
-}
 div {
   -webkit-text-size-adjust: none;
 }
-.landing .head {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 49px;
-  height              : 35px;
-  width               : 1155px;
-  position            : absolute;
-  margin              : 0;
-  left                : 63px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.landing {
+  max-width           : 1280px;
+  height              : 100vh;
+  min-height          : 720px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : auto;
 }
-.landing .head .rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 1155px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.landing .head {
+  top                 : 0;
+  height              : 80px;
+  width               : 100%;
+  background-color    : white;
+  padding             : 0 15px;
 }
 .landing .head .logo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 35px;
-  width               : 561px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .head .logo .george {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 561px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 300;
-  font-style          : normal;
-  font-size           : 29.0px;
-  color               : rgba(33, 33, 33, 1.0);
-  text-align          : left;
-  line-height         : 35.0px;
-}
-.landing .head .buttons {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 9px;
-  height              : 18px;
-  width               : 239px;
-  position            : absolute;
-  margin              : 0;
-  left                : 458px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .head .buttons .button {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 111px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .head .buttons .button .contact {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 113px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(159, 163, 167, 1.0);
-  text-align          : center;
-  letter-spacing      : 3.36px;
-  line-height         : 18.0px;
-}
-.landing .head .buttons .button1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 18px;
-  width               : 110px;
-  position            : absolute;
-  margin              : 0;
-  left                : 129px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .head .buttons .button1 .about {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 113px;
-  position            : absolute;
-  margin              : 0;
-  left                : -2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Montserrat", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 14.0px;
-  color               : rgba(159, 163, 167, 1.0);
-  text-align          : center;
-  letter-spacing      : 3.36px;
-  line-height         : 18.0px;
-}
-.landing .main {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 191px;
-  height              : 280px;
-  width               : 796px;
-  position            : absolute;
-  margin              : 0;
-  left                : 197px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .main .subtitle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 204px;
-  height              : 22px;
-  width               : 339px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .main .subtitle .hintyoumaynotne {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 339px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Open Sans", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(159, 163, 167, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.landing .main .title {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 35px;
-  height              : 144px;
-  width               : 348px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .main .title .findthecheapestso {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : auto;
-  width               : 348px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Montserrat", Helvetica, Arial, serif;
+  display             : inline-block;
+  line-height         : 80px;
+  height              : 80px;
   font-weight         : 300;
   font-style          : normal;
   font-size           : 36.0px;
   color               : rgba(33, 33, 33, 1.0);
   text-align          : left;
-  line-height         : 48.0px;
+  cursor              : pointer;
 }
-.landing .main .image {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 280px;
-  width               : 264px;
+.landing .head .nav {
   position            : absolute;
-  margin              : 0;
-  left                : 532px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  top                 : 35px;
+  left                : 50%;
+  transform           : translateX(-50%);
 }
-.landing .main .image .circle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 40px;
-  height              : 240px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 12px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.landing .head .nav a {
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.36px;
+  line-height         : 18.0px;
+  margin              : 0 15px;
 }
-.landing .main .image .circle .circlebackground {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 240px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.landing .head .nav a.active, .landing .head .nav a:hover {
+  color               : rgba(33, 33, 33, 1.0);
 }
-.landing .main .image .circle .circlebackground .path1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 240px;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.landing .main {
+  min-height          : calc(100vh - 80px);
+  padding             : 0;
+  display             : flex;
+  flex-direction      : column;
+  align-items         : center;
+  justify-content     : center;
 }
-.landing .main .image .circle .colorpaletteblue01clipped {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 240px;
-  width               : 240px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.landing .main .contents {
+  max-width           : 800px;
+  display             : flex;
+  align-items         : center;
+  margin-bottom       : 40px;
 }
-.landing .main .image .circle .colorpaletteblue01clipped .colorpaletteblue01clipped1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 240px;
-  width               : 240px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.landing .main .left {
+  margin-right        : 30px;
 }
-.landing .main .image .avatar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 280px;
-  width               : 264px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.landing .main .subtitle {
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 22px;
+  color               : rgba(159, 163, 167, 1.0);
+  text-align          : left;
+  line-height         : 22px;
 }
-.landing .main .image .avatar .avatar1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 280px;
-  width               : 264px;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .cta {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 446px;
-  height              : 51px;
-  width               : 234px;
-  position            : absolute;
-  margin              : 0;
-  left                : 197px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .cta .rectangle {
-  background-color    : rgba(255, 200, 10, 1.0);
-  top                 : 0px;
-  height              : 51px;
-  width               : 234px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 25px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.landing .cta .getearlyaccess {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : auto;
-  width               : 189px;
-  position            : absolute;
-  margin              : 0;
-  left                : 22px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Montserrat", Helvetica, Arial, serif;
+.landing .main .title {
   font-weight         : 300;
   font-style          : normal;
-  font-size           : 16.0px;
+  font-size           : 42.0px;
   color               : rgba(33, 33, 33, 1.0);
+  text-align          : left;
+  line-height         : 52.0px;
+  margin-bottom       : 15px;
+}
+.landing .main .image {
+  display             : inline-block;
+}
+.landing .main .image img {
+  max-width           : 240px;
+}
+.landing.about .main .contents {
+  flex-direction      : column;
+}
+.landing.about .main .contents h3 {
+  font-weight         : 300;
+  font-size           : 32px;
+  letter-spacing      : 1.3px;
+  margin              : 0;
+}
+.landing.about .main .contents p {
+  font-weight         : 300;
+  font-size           : 20px;
+  letter-spacing      : 1.1px;
+  line-height         : 36px;
+  margin              : 30px 0 0 0;
+}
+.landing .cta {
   text-align          : center;
+  line-height         : 12.0px;
+  background-color    : #001489;
+  padding             : 20px 30px;
+  border-radius       : 25px;
+  border              : none;
+  cursor              : pointer;
+}
+.landing .cta span {
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 20px;
+  color               : #fff;
   letter-spacing      : 3.2px;
-  line-height         : 19.0px;
 }
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+@media all and (max-width: 850px) {
+  .landing .head .nav {
+    left: initial;
+    right: 15px;
+    transform: initial;
+  }
+  .landing .main .contents {
+    max-width: 500px;
+  }
 }
-.anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-}
-.anima-animate-nodelay {
-  -webkit-animation-delay: 0;
-  -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
-}
-@-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
-}
-@keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+@media all and (max-width: 550px) {
+  .landing .head .nav {
+    left: initial;
+    right: 15px;
+    transform: initial;
+  }
+  .landing .head .nav a {
+    font-size: 18px;
+  }
+  .landing .main .contents {
+    max-width: calc(100% - 40px);
+  }
 }
