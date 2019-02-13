@@ -105,19 +105,19 @@ div {
 }
 .landing.about .main .contents {
   flex-direction      : column;
+  margin-top          : -60px;
 }
 .landing.about .main .contents h3 {
   font-weight         : 300;
   font-size           : 32px;
   letter-spacing      : 1.3px;
-  margin              : 0;
 }
 .landing.about .main .contents p {
   font-weight         : 300;
   font-size           : 20px;
   letter-spacing      : 1.1px;
   line-height         : 36px;
-  margin              : 15px 0 0 0;
+  max-width           : 600px;
 }
 .landing .cta {
   text-align          : center;
