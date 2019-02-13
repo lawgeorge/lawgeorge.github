@@ -76,6 +76,7 @@ div {
   display             : flex;
   align-items         : center;
   margin-bottom       : 40px;
+  margin-top          : -100px;
 }
 .landing .main .left {
   margin-right        : 30px;
@@ -105,7 +106,6 @@ div {
 }
 .landing.about .main .contents {
   flex-direction      : column;
-  margin-top          : -60px;
 }
 .landing.about .main .contents h3 {
   font-weight         : 300;
