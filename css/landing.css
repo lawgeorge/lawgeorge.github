@@ -107,6 +107,7 @@ div {
   font-weight         : 300;
   font-size           : 32px;
   letter-spacing      : 1.3px;
+  margin              : 20px 0;
 }
 .landing.about .main .contents p {
   font-weight         : 300;
@@ -158,7 +159,7 @@ div {
   .landing .main .contents {
     max-width: calc(100% - 40px);
     flex-direction: column;
-    margin: 3vh 0 40px;
+    margin: 3vh 0 20px;
   }
   .landing .main .left {
     margin-right: 0;
