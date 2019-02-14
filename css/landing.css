@@ -31,9 +31,11 @@ div {
   box-sizing          : border-box;
   background-color    : white;
   padding             : 0 20px;
+  display             : flex;
+  align-items         : center;
+  justify-content     : space-between;
 }
 .landing .head .logo {
-  display             : inline-block;
   line-height         : 80px;
   height              : 80px;
   font-weight         : 300;
@@ -42,12 +44,6 @@ div {
   color               : rgba(33, 33, 33, 1.0);
   text-align          : left;
   cursor              : pointer;
-}
-.landing .head .nav {
-  position            : absolute;
-  top                 : 33px;
-  left                : 50%;
-  transform           : translateX(-50%);
 }
 .landing .head .nav a {
   font-weight         : 400;
@@ -136,11 +132,6 @@ div {
   letter-spacing      : 3.2px;
 }
 @media (max-width: 850px) {
-  .landing .head .nav {
-    left: initial;
-    right: 15px;
-    transform: initial;
-  }
   .landing .main .contents {
     max-width: 500px;
   }
